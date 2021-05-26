@@ -29,10 +29,12 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
-    compile files('libs/bcprov-jdk15on-1.59.jar')
-    compile files('libs/bitcoinj-core-0.15.6.jar')
+    compile files('libs/spongycastle-1.51.0.0.jar')
+    compile files('libs/bitcoinj-core-0.14.7.jar')
+
+   // compile files('libs/bcprov-jdk15on-1.59.jar')
+   // compile files('libs/bitcoinj-core-0.15.6.jar')
     compile files('libs/guava-20.0.jar')
     compile files('libs/slf4j-api-1.7.20.jar')
 
-    //implementation 'org.bitcoinj:bitcoinj-core:0.14.7'
 }

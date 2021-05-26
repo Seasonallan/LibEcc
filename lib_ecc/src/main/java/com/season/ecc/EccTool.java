@@ -1,7 +1,7 @@
 package com.season.ecc;
 
 import org.bitcoinj.core.ECKey;
-import org.bouncycastle.util.encoders.Base64;
+import org.spongycastle.util.encoders.Base64;
 
 public class EccTool {
 
