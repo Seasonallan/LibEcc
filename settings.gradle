@@ -1,0 +1,3 @@
+include ':lib_ecc'
+include ':app'
+rootProject.name = "My Application"
